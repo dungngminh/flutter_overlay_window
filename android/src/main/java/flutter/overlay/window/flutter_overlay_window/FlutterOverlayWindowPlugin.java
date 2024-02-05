@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -110,7 +111,6 @@ public class FlutterOverlayWindowPlugin implements
         } else {
             result.notImplemented();
         }
-
     }
 
     @Override
